@@ -1,5 +1,4 @@
-# Gehu_ERP
-# ERP Portal Clone README
+# Gehu_ERP portal clone
 
 ## Introduction
 Welcome to the README for the ERP Portal Clone project. This project is a simplified version of an ERP portal of Graphic Era Hill University, implemented using HTML and CSS. It provides a basic interface resembling of an ERP portal.
