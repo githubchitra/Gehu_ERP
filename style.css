@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 115px;
+    width: 100%;
+}
+
+.bcgimg{
+    margin: 0;
+    padding: 0;
+    width: 1390px;
+    height: 623px;
+    box-sizing: border-box;
+}
+
+.logo{
+    height: 120px;
+    width: 120px;
+}
+
+.gh{
+    height: 130px;
+    width: 350px;
+    background-color: rgba(207, 100, 42, 0.782);
+}
+
+#ltd{
+    display: flex;
+    background-color: rgba(45, 133, 45, 0.726);
+    height: 65px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.652);
+}
+
+ul{
+    list-style: none;
+}
+
+.wrapper{
+    float: right;
+    position: relative;
+    border-radius: 10px;
+}
+
+.insidewrapper{
+    border: 2px solid black;
+    border-style: hidden;
+    width: 350px;
+    margin-right: 40px;
+    background-color: rgba(255, 255, 255,0.423);
+    height: 370px;
+    color: black;
+    font-size: 1.2rem;
+}
+
+header{
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    position: fixed;
+}
+
+h2{
+    padding-bottom: 20px;
+}
+
+.captcha{
+    height: 20px;
+    width: 28px;
+    background-color: rgba(121, 121, 121, 0.876);
+}
+
+.c{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    padding-left: 5px;
+    height: 170px;
+}
+
+button{
+    height: 30px;
+    width: 80px;
+    font-size: 1rem;
+    background-color: rgba(105, 158, 237, 0.829);
+}
+
+.forgot{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.id_pass{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a:hover{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.857);
+}
+
+.insidewrapper {
+    position: absolute;
+    top: 16px;
+    animation: leftmovement 2s ease 2ms forwards;
+  }
+
+@keyframes leftmovement {
+    from {
+      right: 0;
+      opacity: 0;
+    }
+    to {
+      right: 100px;
+      opacity: 2;
+    }
+}
+
