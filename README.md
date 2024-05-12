@@ -16,7 +16,7 @@ To view the ERP Portal Clone project locally, follow these steps:
 
 1. *Clone the Repository*: 
    
-   git clone https://github.com/yourusername/erp-portal-clone.git
+   git clone [https://github.com/yourusername/erp-portal-clone.git](https://github.com/githubchitra/Gehu_ERP)
    
 
 2. *Open the HTML File*:
@@ -30,9 +30,6 @@ Contributions to the ERP Portal Clone project are welcome! If you'd like to cont
 - Fork the repository.
 - Make your changes.
 - Submit a Pull Request.
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Support
 For any questions or issues related to the ERP Portal Clone project, please open an issue on GitHub.
